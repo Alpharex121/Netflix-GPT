@@ -1,0 +1,63 @@
+.show-movie-info-cont{
+    height: 80%;
+    width: 80%;
+    margin: 5% 8%;
+    border: 2px solid rgb(177, 177, 177);
+    position: fixed;
+    background-color: rgb(174 174 174);
+    border-radius: 15px;
+    top: 0;
+    display: flex;
+}
+
+.show-movie-info-cont > .video-background-cont{
+    width: 50%;
+    height: 100%;
+}
+.show-movie-info-cont > .video-background-cont>iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+.show-movie-info-cont > .movie-detail-cont{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.show-movie-info-cont > .movie-detail-cont{
+    width: 48%;
+    height: 100%;
+    padding: 3%;
+}
+.show-movie-info-cont > .movie-detail-cont> h1{
+    font-size: 2.5rem;
+    color: blue ;
+    font-weight: bolder;
+    margin: 1% 0;
+}
+.show-movie-info-cont > .movie-detail-cont> h3{
+    font-size: 1.4rem;
+    color: rgb(64, 64, 66) ;
+    font-weight: bold;
+    margin: 1% 0;
+}
+.show-movie-info-cont > .movie-detail-cont> h5{
+    font-size: 1.5rem;
+    color: rgb(64, 64, 66) ;
+    font-weight: bold;
+    margin: 1% 0;
+}
+.close-btn{
+    border: 1px solid red;
+    height: 5%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: black ;
+}
+

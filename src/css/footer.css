@@ -1,0 +1,11 @@
+.footer {
+  height: 10vh;
+  width: 100vw;
+  font-size: 80%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}

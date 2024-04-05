@@ -1,0 +1,78 @@
+.gptsearch-bg-img {
+  position: fixed;
+  z-index: -1;
+}
+.gptsearch-bg-img > img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.gptsearchbar {
+  padding-top: 10%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.gptsearchbar > .gpt-search-form {
+  width: 50%;
+}
+.gptsearchbar > .gpt-search-form > input {
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.gptsearchbar > .gpt-search-form > button {
+  width: 15%;
+  border-radius: 5px;
+  background-color: blue;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  font-weight: bolder;
+}
+.language-btn {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.language-btn > select {
+  background-color: rgb(136, 168, 183);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.gpt-movies-cont {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .gptsearchbar > .gpt-search-form {
+    padding-top: 20%;
+    width: 70%;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .gptsearchbar > .gpt-search-form {
+    padding-top: 30%;
+    width: 80%;
+  }
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .gptsearchbar > .gpt-search-form {
+    padding-top: 40%;
+    width: 80%;
+  }
+  .gptsearchbar > .gpt-search-form > button {
+    width: 15%;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10 25px;
+    font-size: 1rem;
+    margin: 5px;
+    font-weight: bolder;
+  }
+}

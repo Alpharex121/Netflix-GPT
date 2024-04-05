@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+.login-form{
+    background-color: black;
+    opacity: 0.8;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    top: 20%;
+    left: 35%;
+    flex-direction: column;
+}
+.login-form > form{
+    display: flex;
+    width: 70%;
+    height: 60%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    flex-direction: column;
+}
+.login-form > form > .login-form-input{
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 10px;
+    background: rgb(96, 89, 89);
+    color: white;
+}
+#login-btn{
+    background-color: red;
+    color: black;
+    display: flex;
+    border-radius: 5px;
+    justify-self: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+#sign-in-text{
+    font-size: 2rem;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    align-self:flex-start;
+    margin: 0 80px;
+
+}
+
+.validateError{
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.login-bg-img > img{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .login-form {
+        width: 50%;
+            top: 20%;
+                left: 25%;
+    }
+}
+@media (min-width: 450px) and (max-width: 600px) {
+    .login-form {
+        width: 70%;
+            top: 20%;
+                left: 15%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .login-form {
+        width: 80%;
+        height: 70%;
+            top: 17%;
+                left: 10%;
+    }
+}

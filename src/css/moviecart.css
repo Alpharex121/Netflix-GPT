@@ -1,0 +1,8 @@
+.movie-card-cont{
+    width: 10rem;
+    margin: 0 10px;
+}
+.movie-card-cont:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
